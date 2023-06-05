@@ -57,6 +57,7 @@ margin: 5px;
 /* general */
 
 body{
+    color: #222020;
     background-color: #222020;
     width: 100%;
     grid-template-rows: auto 1fr auto;
@@ -93,6 +94,7 @@ form{
 }
 
 .container1{
+    background-color: #222020;
     width: 90%;
     padding: 20px;
     border: 1px solid yellow;
