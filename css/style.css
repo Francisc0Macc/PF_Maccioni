@@ -94,6 +94,8 @@ form{
 
 .container1{
     position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
     left: 30%;
     background-color: #222020;
     width: 40%;
