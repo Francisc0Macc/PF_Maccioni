@@ -1,1 +1,1 @@
-las consignas fueron realizadas en index.html y contacto.html
+las consignas fueron realizadas en scss y el icono del nav tiene animación
