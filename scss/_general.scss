@@ -43,6 +43,14 @@
     padding: 20px;
     box-sizing: border-box;
   }
+
+  .image {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+  }
   
   /* Estilos para dispositivos pequeños */
   @media only screen and (max-width: 600px) {
