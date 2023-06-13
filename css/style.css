@@ -51,7 +51,7 @@ nav li:hover{
     background-color: #e47200;
     transition: .5s;
     border-radius: 10px;
-margin: 5px;
+    margin: 5px;
 }
 
 /* general */
@@ -142,7 +142,6 @@ button:hover{
     transition: .5s;
 }
 
-/* index */
 
 /* Estilos base */
 .container2 {
@@ -156,6 +155,7 @@ button:hover{
   @media only screen and (max-width: 600px) {
     .container2 {
       font-size: 14px;
+      text-align: center;
     }
     .video-container {
       padding-bottom: 56.25%; /* Relación de aspecto 16:9 */
@@ -164,6 +164,11 @@ button:hover{
       width: 100%;
       height: 100%;
     }
+    .imagen {
+        max-width: 100%;
+        height: auto;
+  
+      }
   }
 
   /* Estilos para dispositivos medianos */
@@ -171,6 +176,11 @@ button:hover{
     .container2 {
       font-size: 18px;
     }
+    .imagen {
+        max-width: 100%;
+        height: auto;
+  
+      }
   }
 
   /* Estilos para dispositivos grandes */
@@ -178,4 +188,9 @@ button:hover{
     .container2 {
       font-size: 24px;
     }
+    .imagen {
+        width: 500px;
+        height: auto;
+  
+      }
   }
