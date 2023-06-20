@@ -1,26 +1,43 @@
 @charset "UTF-8";
+/* Reseteo */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 /* nav */
 nav {
   width: 100%;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  width: 150px;
+}
+nav li:hover {
+  background-color: #e47200;
+  transition: 0.5s;
+  border-radius: 5px;
+  margin: 3px;
 }
 
 .logo {
   width: 50px;
 }
-
 .logo:hover {
   transition: 2s;
   transform: rotate(360deg);
   scale: 1.4;
   background-color: white;
   border-radius: 80%;
-}
-
-nav a {
-  text-decoration: none;
-  color: white;
-  padding: 10px;
-  width: 150px;
 }
 
 .item_nav_amd:hover {
@@ -36,26 +53,6 @@ nav a {
 .item_nav_nvidia:hover {
   background-color: green;
   transition: 0.5s;
-}
-
-nav li:hover {
-  background-color: #e47200;
-  transition: 0.5s;
-  border-radius: 5px;
-  margin: 3px;
-}
-
-/* Reseteo */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-}
-
-*::before,
-*::after {
-  box-sizing: border-box;
 }
 
 /* general */
@@ -106,7 +103,7 @@ h2 {
     text-align: center;
   }
   .video-container {
-    padding-bottom: 56.25%; /* Relación de aspecto 16:9 */
+    padding-bottom: 56.25%;
   }
   .video-container iframe {
     width: 100%;
@@ -153,7 +150,6 @@ form {
   border-radius: 8px;
   box-shadow: 0px 0px 8px yellow;
   padding: 4.5em 3em;
-  min-height: 100vh;
   text-align: center;
 }
 
