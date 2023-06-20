@@ -1,0 +1,26 @@
+.carrusel{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.elemento{
+    flex: 1 0 auto;
+    margin: 0 50px;
+    max-width: 501px;
+} 
+
+.carr_nvidia{
+    border: 1px solid $color-nvidia;
+    box-shadow: 0px 0px 8px $color-nvidia;
+}
+
+.carr_intel{
+    border: 1px solid $color-intel;
+    box-shadow: 0px 0px 8px $color-intel;
+}
+
+.carr_amd{
+    border: 1px solid $color-amd;
+    box-shadow: 0px 0px 8px $color-amd;
+}

@@ -15,8 +15,14 @@ a {
 	font-size: 17px;
 }
 p {
+	padding-left: 20px;
 	color: whitesmoke;
 }
+
+h1{
+	color: whitesmoke;
+}
+
 h2 {
 	color: whitesmoke;
 }
@@ -27,6 +33,7 @@ h2 {
 	box-sizing: border-box;
 }
 .image {
+	padding-left: 20px;
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: auto;
