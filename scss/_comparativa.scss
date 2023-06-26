@@ -1,26 +1,70 @@
-.carrusel{
-    display: flex;
-    flex-wrap: nowrap;
-    overflow-x: auto;
+.carrousel{
+    width: 500px;
+    height: 300px;
 }
 
-.elemento{
-    flex: 1 0 auto;
-    margin: 0 50px;
-    max-width: 501px;
-} 
+.conteCarrousel{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
 
-.carr_nvidia{
+.itemCarrousel{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.itemCarrouselTarjeta{
+    width: 100%;
+    height: 100%;
+}
+
+.itemCarrouselArrows{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px; 
+}
+
+.itemCarrouselArrows > i:hover {
+    cursor: pointer;
+}
+
+#carr_nvidia{
     border: 1px solid $color-nvidia;
     box-shadow: 0px 0px 8px $color-nvidia;
 }
 
-.carr_intel{
+#carr_intel{
     border: 1px solid $color-intel;
     box-shadow: 0px 0px 8px $color-intel;
 }
 
-.carr_amd{
+#carr_amd{
     border: 1px solid $color-amd;
     box-shadow: 0px 0px 8px $color-amd;
+}
+
+.conteCarrouselController{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.conteCarrouselController > a{
+    text-decoration: none;
+    font-size: 2em;
+    color: grey;
+}
+
+.itemCarrouselArrows > a > i{
+    color: white;
 }
