@@ -1,1 +1,1 @@
-las consignas fueron realizadas en scss y el icono del nav tiene animación
+https://pf-maccioni.netlify.app
